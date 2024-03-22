@@ -1,0 +1,99 @@
+## .gitignore Contents
+
+**1. Files that should not be tracked by Git:**
+
+* **IDE configuration files:**
+    * .idea/*
+    * .vscode/*
+
+* **Python virtual environment files:**
+    * venv/*
+
+* **Compiled files:**
+    * *.pyc
+    * __pycache__/*
+
+* **Logs:**
+    * *.log
+
+* **Databases:**
+    * *.db
+
+* **Temporary files:**
+    * tmp/*
+
+* **Swap files:**
+    * *.swp
+
+**2. System files:**
+
+* .DS_Store
+
+**3. Operating system specific files:**
+
+* **Windows:**
+    * Thumbs.db
+
+* **MacOS:**
+    * .DS_Store
+
+**4. IDE specific files:**
+
+* **PyCharm:**
+    * .idea/workspace.xml
+    * .idea/inspectionProfiles/profiles_list.xml
+
+**5. Library specific files:**
+
+* **Flask:**
+    * instance/
+
+**Example:**
+
+```
+# IDE configuration files
+.idea/*
+.vscode/*
+
+# Python virtual environment files
+venv/*
+
+# Compiled files
+*.pyc
+__pycache__/*
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# Temporary files
+tmp/*
+
+# Swap files
+*.swp
+
+# System files
+.DS_Store
+
+# Operating system specific files
+Thumbs.db
+
+# IDE specific files
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_list.xml
+
+# Library specific files
+instance/
+```
+
+**Note:**
+
+* You only need to add files that should not be tracked by Git.
+* Do not add files that are part of your project to .gitignore.
+
+**Links:**
+
+* Git documentation: [https://git-scm.com/docs/gitignore](https://git-scm.com/docs/gitignore)
+* Gitignore.io: [https://gitignore.io/](https://gitignore.io/)
