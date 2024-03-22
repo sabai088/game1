@@ -4,7 +4,7 @@ from subprocess import run
 from flask import Flask, render_template, request
 
 # URL репозитория с рандомайзером
-RANDOMIZER_REPO_URL = "https://github.com/bard-project/randomizer"
+RANDOMIZER_REPO_URL = "https://github.com/sabai088/random"
 
 # Диапазон загадываемого числа
 MIN_NUMBER = 1
