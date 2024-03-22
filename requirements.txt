@@ -1,0 +1,56 @@
+## Requirements.txt in English
+
+**1. Python libraries:**
+
+```
+flask
+gunicorn
+```
+
+**2. Additional libraries:**
+
+* To work with Git:
+
+```
+gitpython
+```
+
+* To generate random numbers:
+
+```
+random
+```
+
+* For mathematical calculations:
+
+```
+math
+```
+
+* To work with subprocess:
+
+```
+subprocess
+```
+
+**Example:**
+
+```
+flask
+gunicorn
+gitpython
+random
+math
+subprocess
+```
+
+**Note:**
+
+* You need to add only the libraries that are used in your code.
+* Make sure the library versions are compatible with your Python version.
+
+**Links:**
+
+* Flask documentation: [https://flask.palletsprojects.com/en/2.2.x/](https://flask.palletsprojects.com/en/2.2.x/)
+* Gunicorn documentation: [https://m.youtube.com/watch?v=lOeQUwdAjE0](https://m.youtube.com/watch?v=lOeQUwdAjE0)
+* GitPython documentation: [https://gitpython.readthedocs.io/en/stable/](https://gitpython.readthedocs.io/en/stable/)
